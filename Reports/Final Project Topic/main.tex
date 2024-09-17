@@ -1,0 +1,101 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\begin{document}
+
+\title{Brain Tumor Classification using CNN and Transformers \\
+}
+
+\author{
+\IEEEauthorblockN{Neerajdattu Dudam}
+\IEEEauthorblockA{\textit{University of South Dakota} \\
+Vermillion, SD \\
+101179017}
+\and
+\IEEEauthorblockN{Nagamani Motupalli}
+\IEEEauthorblockA{\textit{University of South Dakota} \\
+Vermillion, SD \\
+101195282}
+\and
+\IEEEauthorblockN{Madhu Sree Sane}
+\IEEEauthorblockA{\textit{University of South Dakota} \\
+Vermillion, SD \\
+1011xxxxx}
+\and
+\IEEEauthorblockN{Mounika Bollina}
+\IEEEauthorblockA{\textit{University of South Dakota} \\
+Vermillion, SD \\
+101166488}
+\and
+}
+
+\maketitle
+
+\section{Objective}
+The primary objective of this project is to develop a robust and accurate system for classifying brain tumors using advanced machine learning and computer vision techniques. Specifically, we aim to:
+\begin{itemize}
+    \item Utilize Convolutional Neural Networks (CNNs) to classify brain tumors based on a provided dataset.
+    \item Experiment with various network architectures and layers to optimize classification performance.
+    \item Benchmark our custom CNN models against state-of-the-art models such as ResNet50.
+    \item Explore the use of transformers, including Swin Transformer and Vision Transformer, to enhance model performance.
+    \item Implement transfer learning to leverage pre-trained models and improve classification accuracy and efficiency.
+    \item Conduct a comprehensive evaluation of each method’s strengths and limitations to identify the most effective approach for brain tumor classification.
+
+\end{itemize}
+
+\section{Data}
+The dataset used in this project will consist of medical imaging data, specifically MRI scans of brain tumors. The dataset will include:
+\begin{itemize}
+    \item High-resolution images of brain tumors, labeled with the type of tumor.
+    \item Pre-processed images to ensure consistency and quality for training and testing the models.
+    \item A split of the dataset into training, validation, and test sets to evaluate model performance accurately.
+\end{itemize}
+
+\section{Hypothesis}
+Our hypothesis is that advanced machine learning models, particularly CNNs and transformers, can significantly improve the accuracy of brain tumor classification. We believe that:
+
+\begin{itemize}
+    \item Custom CNN models, when optimized with various architectures and layers, will achieve high classification accuracy.
+    \item State-of-the-art models like ResNet50 will provide a strong benchmark for comparison.
+    \item Transformers, such as Swin Transformer and Vision Transformer, will offer enhanced performance due to their ability to capture complex patterns in the imaging data.
+    \item Transfer learning will further improve classification accuracy by leveraging the knowledge from pre-trained models on large datasets.
+    \item A combination of these techniques will result in a highly effective and efficient system for brain tumor classification.
+\end{itemize}
+
+\section{Expectations}
+We expect the following outcomes from our project:
+
+\begin{itemize}
+    \item Development of a high-performing CNN model tailored for brain tumor classification.
+    \item Identification of the optimal network architecture and layer configuration for our custom models.
+    \item Comprehensive performance comparison between our custom models and state-of-the-art models like ResNet50.
+    \item Demonstration of the effectiveness of transformers in enhancing classification performance.
+    \item Successful implementation of transfer learning, leading to improved accuracy and efficiency.
+    \item Detailed analysis of each method’s strengths and limitations, providing valuable insights for future research and development in medical imaging and diagnostics.
+\end{itemize}
+
+By achieving these outcomes, we aim to contribute to the advancement of medical imaging technologies and provide a reliable tool for the early detection and classification of brain tumors, ultimately improving patient outcomes and treatment strategies.
+
+\begin{thebibliography}{00}
+\bibitem{b1} Sharma, N., Jain, V., Mishra, A. (2018). An analysis of convolutional neural networks for image classification. Procedia Computer Science, 132, 377–384. https://doi.org/10.1016/j.procs.2018.05.198
+\bibitem{b2} M. Nickparvar. "Brain tumor MRI dataset," in Kaggle, 2021. 
+\bibitem{b3} PyTorch, "ViT-B/16: Vision Transformer with BERT-style tokens," PyTorch torchvision Library.
+\bibitem{b4} J. Cheng, "Brain tumor dataset," 2017.
+\bibitem{b5} J. Sarta, "Brain tumor classification (MRI)," in Kaggle, 2020.
+\bibitem{b6} A. Hamada, "Br35H:: Brain tumor detection 2021," in Kaggle, 2020.
+\bibitem{b7} R. Samy, "Brain tumor using CNN," in Kaggle, 2024.
+\bibitem{b8} K. Tian, "Brain tumor type classification - VGG-19," in Kaggle, 2024.
+\bibitem{b9} A. Dosovitskiy et al., “AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE,” in ICLR 2021 - 9th International Conference on Learning Representations, 2021.
+\bibitem[10] Lorente, Ò., Riera, I., Rana, A. (2021, May 11). Image Classification with Classic and Deep Learning Techniques. arXiv.org. https://arxiv.org/abs/2105.04895
+
+\end{thebibliography}
+
+\end{document}
