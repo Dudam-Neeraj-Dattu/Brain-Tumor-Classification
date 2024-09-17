@@ -1,0 +1,3 @@
+## Brain Tumor Classification
+
+Our primary goal is to classify the brain tumors based on the provided dataset using Convolutional Neural Networks (CNNs). We plan to evaluate performance by experimenting with different layers and comparing our results with state-of-the-art models like ResNet50. Additionally, we intend to use various transformers, such as Swin Transformer and Vision Transformer. We also aim to implement transfer learning and compare these results with our custom model implementations.
