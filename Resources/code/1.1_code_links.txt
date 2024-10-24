@@ -1,0 +1,4 @@
+cnn - https://medium.com/thecyphy/train-cnn-model-with-pytorch-21dafb918f48
+
+vit - https://towardsdatascience.com/implementing-vision-transformer-vit-from-scratch-3e192c6155f0
+      https://medium.com/@curttigges/building-the-vision-transformer-from-scratch-d77881edb5ff
